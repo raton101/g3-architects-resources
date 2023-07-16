@@ -151,7 +151,55 @@ nav li a{
     font-size: 20px;
 
 }
-        
+    /* section 01     */
+..tems-image-containar{
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    margin-left: 00px;
+    gap: 10px;
+ 
+}
+
+
+
+
+
+
+.teams-contanar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tems-image-containar{
     
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+    margin-left: 0px;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+.tems-image-containar img{
+    width: 350px;
+    height: 350px;
+    margin-left: 0px;
+
+}
+.team-content{
+    margin-right: 00px;
+    padding-left: 30px;
+}
+.of-our{
+    font-size: 20px;
+}
+#future{
+    color: red;
+}
+.teams-contanar{
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 }
 
