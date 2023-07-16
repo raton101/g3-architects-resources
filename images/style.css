@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Open+Sans:ital,wght@0,400;1,300;1,400&family=Work+Sans:wght@400;500;700;800&display=swap');
+*{
+    font-family: 'Fasthand', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color: rgb(240, 214, 183);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav > ul{
+    display: flex;
+
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight:500 ;
+    color: black;
+}
+nav li{
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500px;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.banner-contant{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banar-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banar img{
+    margin-right: auto;
+    width: 1200px;
+    margin-left:30px;
+    margin-top: 10px;
+}
+.btn-primare{
+    background-color: rgb(238, 150, 42);
+    color: aliceblue;
+    font-weight: 600;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+
